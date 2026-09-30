@@ -5,13 +5,13 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html)
 {
     "name": "Journal Entry base import",
-    "version": "18.0.1.0.3",
+    "version": "20.0.1.0.3",
     "author": "Akretion,Camptocamp,Odoo Community Association (OCA)",
     "category": "Finance",
     "depends": ["account"],
     "website": "https://github.com/OCA/account-reconcile",
     "data": [
-        "security/ir.model.access.csv",
+        "security/ir.access.csv",
         "data/completion_rule_data.xml",
         "wizard/import_statement_view.xml",
         "views/account_move_view.xml",
