@@ -64,7 +64,7 @@
         id="menu_action_move_completion_rule_list_menu"
         name="Move Completion Rule"
         action="action_move_completion_rule_list"
-        parent="account.account_management_menu"
+        parent="account.menu_finance_configuration"
     />
     <record id="view_account_move_filter" model="ir.ui.view">
         <field name="model">account.move</field>
